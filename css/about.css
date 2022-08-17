@@ -1,0 +1,174 @@
+
+
+.container-bady{
+	justify-content: safe center;
+	margin: 2vw 14vw;
+}
+.container-bady .container-central{
+	display: flex;
+}
+
+.container-bady .container-central .icons-red{
+	display: flex;
+
+}
+.icons-red div{
+	padding: 10px;
+	margin-right: 40px;
+	box-shadow: darkgray 1px 2px 2px 1px;
+	border-radius: 5px;
+}
+.icons-red div h2{
+	margin: 5px 0;
+}
+.icons-red div h2,b{
+	color: brown;
+}
+.icons-red div span{
+	font-size: 13px;
+	opacity: 0.7;
+}
+p{
+	opacity: 0.7;
+}
+
+.icons-red div img{
+	height: 45px;
+	width: 50px;
+}
+.img-right{
+	width: 39vw;
+	border-radius: 6px;
+}
+.content-parent{
+	margin: 5vw 15vw;
+}
+.content-parent h2,.content-parent .p{
+	text-align: center;
+}
+.content-red{
+	display: flex;
+}
+.content-r div{
+	display: flex;
+}
+.content-r{
+
+	padding: 30px;
+	margin-top: 35px;
+	margin-right: 35px;
+	box-shadow: darkgray 1px 2px 2px 1px;
+	border-radius: 5px;
+}
+.content-r:hover{
+	background: pink;
+}
+.content-r div img{
+	height: 35px;
+	width: 40px;
+	margin: 10px 15px;
+
+}
+.content-r p{
+	margin-top: -0.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* style pour smartphone*/
+@media all and (max-width: 600px){
+
+	.container-bady{
+		justify-content: safe center;
+		
+	}
+	.container-bady .container-central{
+		display: block;
+	}
+
+	.container-bady .container-central .icons-red{
+		display: block;
+
+	}
+	.img-right{
+		margin: 20px -20px;
+		height: 40vw;
+		width:105%;
+		border-radius: 6px;
+	}
+	
+	.icons-red div{
+
+		border-top: darkgray solid 0.5px;
+		text-align: center;
+		margin: 40px -20px;
+		padding: 10px;
+		box-shadow: darkgray 1px 2px 2px 1px;
+		border-radius: 5px;
+		width:100%;
+	}
+	.icons-red div h2{
+		margin: 5px 0;
+	}
+	.icons-red div h2,b{
+		color: brown;
+	}
+	.icons-red div span{
+		font-size: 13px;
+		opacity: 0.7;
+	}
+	p{
+		opacity: 0.5;
+	}
+
+	.icons-red div img{
+		height: 45px;
+		width: 50px;
+	}
+	
+	.content-parent{
+		margin: 5vw 5vw;
+	}
+	.content-parent h2,.content-parent .p{
+		text-align: center;
+	}
+	.content-red{
+		display: block;
+	}
+	.content-r div{
+		display: flex;
+	}
+	.content-r{
+
+		padding: 30px;
+		margin-top: 35px;
+		margin-right: 35px;
+		box-shadow: darkgray 1px 2px 2px 1px;
+		border-radius: 5px;
+	}
+	.content-r:hover{
+		background: pink;
+	}
+	.content-r div img{
+		height: 35px;
+		width: 40px;
+		margin: 10px 15px;
+
+	}
+	.content-r p{
+		margin-top: -0.5px;
+	}
+
+}
